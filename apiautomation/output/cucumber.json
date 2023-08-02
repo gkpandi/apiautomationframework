@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-02T11:42:49.100Z",
+        "line": 4,
+        "name": "Add new device with relevant details",
+        "description": "",
+        "id": "call-post-api-to-insert-device-data-into-the-system;add-new-device-with-relevant-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3071000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has created payload to add new device",
+            "match": {
+              "location": "automationframework.stepdefinitions.PostAPSample.user_has_created_payload_to_add_new_device()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 484000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "system saved new device details",
+            "match": {
+              "location": "automationframework.stepdefinitions.PostAPSample.system_saved_new_device_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify the response status code",
+            "match": {
+              "location": "automationframework.stepdefinitions.PostAPSample.verify_the_response_status_code()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PostAPISample"
+          }
+        ]
+      }
+    ],
+    "name": "Call Post API to insert device data into the system",
+    "description": "",
+    "id": "call-post-api-to-insert-device-data-into-the-system",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/automationframework/features/PostAPISample.feature",
+    "tags": []
+  }
+]

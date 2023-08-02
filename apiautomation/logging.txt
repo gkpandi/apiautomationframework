@@ -1,0 +1,50 @@
+Request method:	POST
+Request URI:	https://api.restful-api.dev/objects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Apple MacBook Pro 16",
+    "id": null,
+    "createdAt": null,
+    "data": {
+        "year": "2019",
+        "price": "1849.99",
+        "cpuModel": "Intel Core i9",
+        "hdsize": "1 TB"
+    }
+}
+HTTP/1.1 200 OK
+Date: Wed, 02 Aug 2023 11:46:08 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wjcMMTsEUPmY8%2B3lGKmKEl7axl1Xik7GIB9NhLj8IxGKaHKDzfeVqdLg24FZSlbYjrhS1UVfvxr0gX%2BiULEcdOv7Bz%2B0qdWFvg9oPIfZN%2FrZJALHphaBjGFkfDw9IIa4F2dfVvJE"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7f06141f1922366f-FRA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": "ff80818189b029d10189b611cffb0986",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2023-08-02T11:46:07.995+00:00",
+    "data": {
+        "year": "2019",
+        "price": "1849.99",
+        "cpuModel": "Intel Core i9",
+        "hdsize": "1 TB"
+    }
+}
